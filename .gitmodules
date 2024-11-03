@@ -1,0 +1,3 @@
+[submodule "Assets/GraphView.Runtime"]
+	path = Assets/GraphView.Runtime
+	url = git@github.com:dunward/GraphView.Runtime.git
