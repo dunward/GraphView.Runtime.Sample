@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 12410685}
-  - component: {fileID: 12410688}
+  - component: {fileID: 12410690}
   - component: {fileID: 12410689}
   m_Layer: 5
   m_Name: GraphView.Runtime
@@ -162,24 +162,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &12410688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 12410684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1bc3481205a7494d8a77616be1fa2f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  viewTransform: {fileID: 465101629}
-  zoomTransform: {fileID: 1126066484}
-  contextMenuPrefab: {fileID: 6013131168414242442, guid: 5672d4d08aca5f940a54fcbf1b9caa14, type: 3}
-  nodePrefab: {fileID: 447331314474540581, guid: f785a78f4c315564b929e7653a33e96c, type: 3}
-  selectionBoxPrefab: {fileID: 501726136909940213, guid: cdc173fbd2fd9204a90dc27a33857907, type: 3}
-  test: {fileID: 4900000, guid: 4e2295dfaa2203349acd337701d2f915, type: 3}
 --- !u!114 &12410689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,6 +174,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ec71969236be4f408e8e797a9a17092, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &12410690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12410684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdf27dff7808875489a241fca1f7dea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewTransform: {fileID: 465101629}
+  zoomTransform: {fileID: 1126066484}
+  contextMenuPrefab: {fileID: 6013131168414242442, guid: 5672d4d08aca5f940a54fcbf1b9caa14, type: 3}
+  nodePrefab: {fileID: 447331314474540581, guid: f785a78f4c315564b929e7653a33e96c, type: 3}
+  selectionBoxPrefab: {fileID: 501726136909940213, guid: cdc173fbd2fd9204a90dc27a33857907, type: 3}
 --- !u!1 &346636659
 GameObject:
   m_ObjectHideFlags: 0
